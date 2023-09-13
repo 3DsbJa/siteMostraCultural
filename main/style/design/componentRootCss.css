@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&family=Lakki+Reddy&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root {
+    /* /---------------------/
+    /                        /                        
+    /    STANDARD COLORS     /
+    /                        /
+    /------------------------/ */
+
+    --standard-darkGrey: #28201D;
+    --standard-yellow: #E8B932;
+    --standard-blue: #252979;
+    --standard-golden: #d4af37;
+    --standard-green: #5d6d3d;
+    --stardard-ligthBlue: #626B73;
+    --stardard-ligthPink: #D9859C;
+    --stardard-white:#FFFF;
+
+}
+
+body{
+    background-color: var(--standard-darkGrey);
+}
+
+.mainContainer{
+    background-color: var(--standard-darkGrey);
+}
+
+/* /-------------------------/
+    /                        /                        
+    /      TITLE/TEXTS       /
+    /                        /
+    /------------------------/ */
+
+    /* section where the text block of our design system is located*/
+
+    /*  /----------------------------/
+        /            TEXTS           /
+        /----------------------------/ */
+
+    .text-root{
+        color: var(--stardard-white);
+        font-family: 'Poppins', sans-serif;
+    }
+
+    /*  /----------------------------/
+        /            TITLES          /
+        /----------------------------/ */
+
+    .title-root{
+        color: var(--stardard-white);
+        font-family: 'Freckle Face', cursive;
+        font-size: 8vh;
+    }
+
+
+    .subTitle-root{
+        color: var(--stardard-white);
+        font-family: 'Lakki Reddy', cursive;
+        margin-top: 2vh;
+        font-size: 4vh;
+    }
+/* /-------------------------/
+    /                        /                        
+    /      ALIGN THINGS      /
+    /                        /
+    /------------------------/ */
+
+    /* section where the alignment block of our design system is located*/
+
+    .flexContainer{
+        display: flex;
+    }
+
+    .flexColumn{
+        flex-direction: column;
+    }
+
+    .flexRow{
+        flex-direction: row;
+    }
+
+    .alignAllCenter{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .alignAllEnd{
+        align-items:end;
+        justify-content: end;
+    }
+
+    .alignAllStat{
+        align-items:start;
+        justify-content: start;
+    }
+
+    .justifySpaceBetween{
+        justify-content: space-between;
+    }
+
+    .justifySpaceAround{
+        justify-content: space-around;
+    }
+
+    .justifySpaceEvenly{
+        justify-content: space-evenly;
+    }
+
+    .allScream{
+        width: 100vw;
+        height: 100vh;
+    }
+
+
+/* /-------------------------/
+    /                        /                        
+    /         LINKS          /
+    /                        /
+    /------------------------/ */
+
+    /* section where the link block of our design system is located*/
+
+    .link-root{
+        text-decoration: none;
+        color: #28201D !important;
+    }
+
+/* /-------------------------/
+    /                        /                        
+    /          BTNS          /
+    /                        /
+    /------------------------/ */
+
+    /* section where the buttons block of our design system is located*/
+
+    .button-root{
+        border-radius: 3vh;
+        background-color: transparent;
+        color: var(--stardard-white);
+        border: 0.4vh solid var(--standard-golden);
+        cursor: pointer;
+        font-family: Poppins, sans-serif; 
+        padding: 0.5rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        font-weight: 400;
+        font-size: 2.5vh;
+        transition: 0.5s;
+    }
+
+    .button-root:hover{
+        letter-spacing: 0.5px;
+        background: var(--standard-golden);
+        transition: 0.5s;
+        color: var(--standard-darkGrey);
+        border-color: transparent;
+        font-weight: 600;
+    }
+
+/* /-------------------------/
+    /                        /                        
+    /          INPUT         /
+    /                        /
+    /------------------------/ */
+
+    /* section where the input block of our design system is located*/
+
+    .input-root{
+        border: 0.22vh solid var(--standard-green);
+        padding: 8px;
+        font-family: Poppins, sans-serif;
+        color: var(--wRoot-white);
+        cursor: pointer;
+        background-color: transparent;
+        border-radius: 8px;
+        outline: none;
+    }
+
+    .input-root:hover{
+        border: 0.30vh solid #37f13e;
+        outline: none;
+        transition: 0.3s;
+    }
+
+    .input-root:focus{
+        border: 0.30vh solid #37f13e;
+        outline: none;
+        transition: 0.3s;
+
+    }
+
+    .input-root::placeholder{
+    color: var(--wRoot-white);
+    }
+
+/* /-------------------------/
+    /                        /                        
+    /          links         /
+    /                        /
+    /------------------------/ */
+
+

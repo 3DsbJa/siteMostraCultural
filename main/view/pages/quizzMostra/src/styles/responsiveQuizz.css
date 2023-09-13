@@ -1,0 +1,146 @@
+@media (max-width: 1536px) {
+    .generalQuestions{
+        width: 50vw;
+        height: 50vh;
+    }
+
+    .mainTittleTexts{
+        width: 50vw;
+    }
+
+    .tittleQuestion{
+        font-size:2vw;
+    }
+}
+
+@media (max-width: 1190px) {
+    .generalQuestions{
+        width: 60vw;
+        height: 50vh;
+    }
+
+    .mainTittleTexts{
+        width: 60vw;
+    }
+
+    .tittleQuestion{
+        font-size:2.5vw;
+    }
+}
+
+@media (max-width: 997px) {
+    .generalQuestions{
+        width: 70vw;
+        height: 50vh;
+    }
+
+    .mainTittleTexts{
+        width: 70vw;
+    }
+
+    .tittleQuestion{
+        font-size:2.5vw;
+    }
+
+    .buttonRootBase{
+        height: 4vh;
+        width: 20vw;
+    }
+}
+
+@media (max-width: 818px) {
+    .generalQuestions{
+        width: 80vw;
+    }
+
+    .answersOptions{
+        flex-direction: column;
+    }
+
+    .alternative{
+        margin-top: 0.5vh;
+        margin-left: 0vw;
+    }
+
+    .mainTittleTexts{
+        width: 70vw;
+    }
+
+    .mainTittleTexts{
+        margin-bottom: 7vh;
+    }
+
+    .tittleQuestion{
+        font-size:3vw;
+    }
+
+    .buttonRootBase{
+        height: 4vh;
+        width: 30vw;
+    }
+
+    .button{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        margin-top: 15vh;
+    }
+
+    .textBase{
+        font-size: 2vw;
+    }
+
+    .mainTittle{
+        font-size: 8vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .mainContainer{
+        height: 120vh;
+        width: auto;
+    }
+
+    .mainTittleTexts{
+        width: 90vw;
+        margin-top: 5vh;
+        margin-bottom: 10vh;
+    }
+    .textBase{
+        font-size: 3.5vw;
+    }
+
+    .mainTittle{
+        font-size: 10vw;
+    }
+
+    .tittleQuestion{
+        font-size:5vw;
+    }
+
+    .button{
+        margin-top: 20vh;
+        margin-bottom: 10vh;
+    }
+
+    .generalQuestions{
+        margin-top: 5vh;
+    }
+
+    #parabens {
+        width: 90vw;
+    }
+
+    .congratsText{
+        margin-top: 6vw;
+    }
+
+    #tenteNovamente{
+        width: 90vw;
+    }
+
+    .buttonRootBase{
+        height: 6vh;
+        width: 50vw;
+    }
+}

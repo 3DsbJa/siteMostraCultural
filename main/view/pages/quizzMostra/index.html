@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz Africa do Sul</title>
+    <link rel="shortcut icon" href="src/assets/img/southAfricaIcon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <link rel="stylesheet" href="./src/styles/resetCss.css">
+    <link rel="stylesheet" href="./src/styles/responsiveQuizz.css">
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="mainTittleTexts">
+            <p class="welcomeText">Boas vindas ao:</p>
+            <h1 class="mainTittle">AFROvrae</h1>
+            <p class="textBase">A África do Sul, é conhecida por sua rica história, cultura vibrante e paisagens deslumbrantes. Após essa aventura pela Africa do Sul, responda as perguntas:</p>
+        </div>
+
+        <div class="generalQuestions" id="divQuestions">
+            <div class="quetions">
+                <p class="tittleQuestion">1 vraag:</p>
+                <p class="textBaseQuestions">Em qual cidade está localizado o prestigiado hotel The Leonard?</p>
+
+                <div class="answersOptions">
+                    <div class="alternative">
+                        <input type="radio" name="firstOne" id="firstOne1">
+                        <label for="firstOne1" class="labelText">Durban</label>
+                    </div>
+                    <div class="alternative">
+                        <input type="radio" name="firstOne" id="firstOne2">
+                        <label for="firstOne2" class="labelText">Cidade do Cabo</label>
+                    </div>
+                    <div class="alternative">
+                        <input type="radio" name="firstOne" id="firstOne3">
+                        <label for="firstOne3" class="labelText">Johanesburgo</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quetions">
+                <p class="tittleQuestion">2 vraag:</p>
+                <p class="textBaseQuestions">Qual o maior mamífero terrestre do mundo?</p>
+
+                <div class="answersOptions">
+                    <div class="alternative">
+                        <input type="radio" name="secondOne" id="secondOne1">
+                        <label for="secondOne1" class="labelText">Rinoceronte Negro</label>
+                    </div>
+                    <div class="alternative">
+                        <input type="radio" name="secondOne" id="secondOne2">
+                        <label for="secondOne2" class="labelText">Elefante Africano</label>
+                    </div>
+                    <div class="alternative">
+                        <input type="radio" name="secondOne" id="secondOne3">
+                        <label for="secondOne3" class="labelText">Baleia Jubarte</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quetions">
+                <p class="tittleQuestion">3 vraag:</p>
+                <p class="textBaseQuestions">Qual a geleia utilizada para fazer o Malva Pudding?</p>
+
+                <div class="answersOptions">
+                    <div class="alternative">
+                        <input type="radio" name="thirdOne" id="thirdOne1">
+                        <label for="thirdOne1" class="labelText">Geleia de Damasco</label>
+                    </div>
+                    <div class="alternative">
+                        <input type="radio" name="thirdOne" id="thirdOne2">
+                        <label for="thirdOne2" class="labelText">Geleia de Morango</label>
+                    </div>
+                    <div class="alternative">
+                        <input type="radio" name="thirdOne" id="thirdOne3">
+                        <label for="thirdOne3" class="labelText">Geleia de Goiaba</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="button">
+            <button class="buttonRootBase">Enviar dados</button>
+        </div>
+
+        <div id="parabens" class="hidden">
+            <h1 class="mainTittle">Baie geluk</h1>
+            <p class="congratsText">Parabéns! Você acertou todas as respostas.</p>
+            <p class="congratsText">Você conseguiu seu BRINDE ESPECIAL da nossa mostra CULTURAL!! Pegue ele ao lado da porta!</p>
+            <p class="congratsText">Quantidade de acertos: <span id="numAcertos">0</span> acertos</p>
+        </div>
+
+        <div id="tenteNovamente" class="hidden">
+            <h1 class="mainTittle">Ek verstaan ​​dit nie</h1>
+            <p class="congratsText">Você não acertou as 3 questões e infelizmente você não vai conseguir seu prêmio, por favor tente novamente para conquistar seu tesouro!</p>
+            <button id="refazerButton" class="buttonRootBase btnBase">Refazer</button>
+        </div>
+    </div>
+
+    <script src="./src/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,284 @@
+@media (max-width: 1200px) {
+
+    .titleElementsTop{
+        font-size: 14vh !important;
+    }
+
+}
+
+@media (max-width: 1000px) {
+
+    .navBarContent{
+        width: 80vw;
+    }
+
+    .text2ElementsTop{
+        display: none;
+    }
+   
+     .imgCircle2{
+        display: none;
+     }
+     .imgCircle1{
+        display: none;
+    }
+    .textInformationConceito{
+        width: 80vw !important;
+        font-size: 2.5vh;
+        line-height: 4vh;
+        z-index: 2000;
+        margin-top: -70vw;
+        margin-right: 0;
+        text-align: center;
+    }
+    .textInformationConceito2{
+        width: 80vw !important;
+        font-size: 2.5vh;
+        line-height: 4vh;
+        z-index: 2;
+        margin-top: 0;
+        margin-bottom: 20vw;
+        margin-right: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+    .titleConceitos{
+        margin-left: 0;
+    }
+    .iconMenuContent{
+        margin-left: 80vw;
+    }
+    .contentGalery{
+        margin-top: 0vw;
+        background: var(--standard-blue);
+        width: 100%;
+       
+    }
+    .midMidContentPage{
+        background: linear-gradient(180deg, #28201D 2%, #252979 100%);
+        height: auto;
+        z-index: 0;
+        width: 100%;
+        margin-top: 10vw;
+    }
+    .text1ContentCity{
+        width: 80vw;
+    }
+    .text2ContentCity{
+        width: 80vw;
+    }
+    .textCulture{
+        width: 80vw !important;
+    }
+    .textFood{
+        width: 45vw;
+        font-size: 1.9vh;
+    }
+    .textQUIZZ{
+        width: 80vw;
+       
+    }
+ 
+    
+}
+
+
+@media (max-width: 600px) {   
+    .navBarContent{
+        width: 50vw !important;
+        height: 120vw !important;
+        opacity: 0.6;
+        margin-left: 150vw;
+        margin-top: 30vw;
+        transition: 0.5s;
+        z-index: 10;
+    }
+    .itensMenu{
+        flex-direction: column !important;
+    }
+    .textItensMenu{
+        padding-left: 0vh !important;
+        font-weight: 500;
+    }
+    .lineMenu{
+        margin-top: 4vh;
+    }
+    .iconMenuContent{
+        display: none;
+    }
+    .menuHamburger{
+         margin-top: 2vh;
+         margin-left: 38vw;
+         width: 2rem;
+         height: 2rem;
+         z-index: 2000;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         cursor: pointer;
+         position: fixed;
+         transition: 0s ;
+     
+     }
+     .line{
+         width: 100%;
+         height: 0.1rem;
+         padding: 0.1vh;
+         border-radius: 1vh;
+         background-color: var(--stardard-white);
+         box-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.788);
+     }
+
+    .titleElementsTop{
+        font-size: 6vh !important;
+       
+    }
+    .textElementsTop{
+        font-size: 2vh;
+        margin-top: -40vw;
+    }
+    .imgTopContent{
+        width: 100vw;
+    }
+    .textInformationConceito{
+        width: 90vw !important;
+        font-size: 1.7vh;
+        line-height: 3vh;
+        z-index: 2;
+        margin-top: -70vw;
+        margin-right: 0;
+        text-align: justify;
+    }
+    .titleConceitos{
+        margin-left: 0;
+        font-size: 4vh
+    }
+    .titleGalery{
+        margin-top: 5vw;
+        font-size: 4vh;
+    }
+    .textInformationConceito2{
+        width: 90vw !important;
+        font-size: 1.8vh;
+        line-height: 3vh;
+        z-index: 2;
+        margin-top: -0vw;
+        margin-right: 0;
+        margin-left: 0;
+        text-align: justify;
+    }
+    .lines{
+        opacity: 0.4;
+    }
+    .navBarContent{
+        width: 35vw;
+        height: 70%;
+        opacity: 0.6;
+        margin-left: 65vw;
+        transition: 0.5s;
+        margin-top: 20vh;
+    }
+    .rigthContainerFood{
+        display: none;
+    }
+    .leftContainerFood{
+        width: 100%;
+    }
+    .textFood{
+        width: 90vw;
+        font-size: 1.8vh;
+        text-align: justify;
+        line-height: 3.5vh;
+        margin-top: 2vw;
+        margin-bottom: 15vw;
+    }
+    .leftContainerDance{
+        display: none;
+    }
+    .rigthContainerPolicy{
+        display: none;
+    }
+    .contentGalery{
+        margin-top: 0vw;
+        background: var(--standard-blue);
+        width: 100%;
+       
+    }
+    .midMidContentPage{
+        background: linear-gradient(180deg, #28201D 2%, #252979 100%);
+        height: 50vh;
+        z-index: 0;
+        width: 100%;
+        margin-top: 0vw;
+    }
+    .imgsGalery{
+        max-width: 33vw;
+        max-height: 50vw;
+        margin-bottom: 5vw;
+    }
+    .imgsGalery2{
+        width: 33vw;
+        height: 45vw;
+        margin-top:-2vh ;
+        margin-left: 3vw;
+    }
+    .subTCity{
+        font-size: 2vh;
+    }
+    .midContentCity{
+        background-color: var(--stardard-white);
+        width: 100%;
+        height: auto;
+        margin-top: -3vh;
+        border-top-left-radius: 22vw;
+        border-top-right-radius: 22vw;
+    }
+    .imgElementCity2{
+        width: 90vw;
+        margin-top: 5vw;
+    }
+    .text1ContentCity{
+        width: 90vw;
+        text-align: justify;
+    }
+    .title2ContentCity{
+        font-size: 4vh;
+    }
+    .imgsCity{
+        width: 20vw;
+        height: 20vw;
+        margin-left: 2vh;
+        margin-top: -5vw;
+        margin-bottom: 5vw;
+    }
+    .titleCulture{
+        font-size: 4vh;
+        margin-top: 5vw;
+    }
+    .titleFood{
+        font-size: 7vh !important;
+    }
+    .textCulture{
+        width: 90vw;
+        text-align: justify;
+    }
+    .textQUIZZ{
+        width: 90vw;
+        font-size: 1.8vh;
+        text-align: justify;
+    }
+    .containerQuizz{
+        width: 100%;
+        background: linear-gradient(180deg,#252979 50%, #28201D 99%);
+        height: 180vw;
+        margin-top: -8vw;
+        z-index: 0;
+    }
+    .midContentPage{
+        margin-top: -90vw;
+    }
+    .contentElementsTop{
+        margin-top: 20vw;
+    }
+  
+}
